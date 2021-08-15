@@ -7,9 +7,9 @@
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-| 15/08    |   via slack  |      Backlog - Dev. Strategy - tasks assignment                   |
+| Day   |    How    | The topic of discussion                    |
+| ----- | :-------: | ------------------------------------------ |
+| 15/08 | via slack | Backlog - Dev. Strategy - tasks assignment |
 
 ## Communication Channels
 
@@ -24,21 +24,21 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day       |    Emely     |    Rayane     |    Moamin     |    Hasan     |        Senait         |
-| --------- | :---------: | :---------: | :---------: | :---------: | :-----------------: |
-| Monday    |  9h - 15h  |  10h - 17h | 0h - 0h |   0h - 0h  |  0h - 0h |
-| Tuesday   |   14h - 19h  | 13h - 17h | 0h - 0h |   0h - 0h  |  0h - 0h |
-| Wednesday | 9h - 15h   | 10h - 17h | 0h - 0h |   0h - 0h  |  0h - 0h |
-| Thursday  |  9h - 15h   | 13h - 17h | 0h - 0h |   0h - 0h  |  0h - 0h |
-| Friday    |  9h - 13h   | 10h - 17h  | 0h - 0h |   0h - 0h  |  0h - 0h |
+| Day       |   Emely   |  Rayane   | Moamin  |  Hasan  | Senait  |
+| --------- | :-------: | :-------: | :-----: | :-----: | :-----: |
+| Monday    | 9h - 15h  | 10h - 17h | 0h - 0h | 0h - 0h | 11h-15h |
+| Tuesday   | 14h - 19h | 13h - 17h | 0h - 0h | 0h - 0h | 11h-15h |
+| Wednesday | 9h - 15h  | 10h - 17h | 0h - 0h | 0h - 0h |10h-15h  |
+| Thursday  | 9h - 15h  | 13h - 17h | 0h - 0h | 0h - 0h | 10h-15h |
+| Friday    | 9h - 13h  | 10h - 17h | 0h - 0h | 0h - 0h | 10h-15h |
 
-### How many hours everyone has per day:
+### How many hours everyone has per day
 
 - Emely : _5h_;
 - Rayane Silva: 6h_;
 - Moamin Salamah: _xh_;
 - Hasan: _xh_;
-- Senait: _xh_;
+- Senait: _5h_;
 
 ## Asking for Help
 
