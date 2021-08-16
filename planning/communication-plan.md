@@ -26,17 +26,17 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 | Day       |   Emely   |  Rayane   | Moamin  |  Hasan  | Senait  |
 | --------- | :-------: | :-------: | :-----: | :-----: | :-----: |
-| Monday    | 9h - 15h  | 10h - 17h | 0h - 0h | 0h - 0h | 11h-15h |
-| Tuesday   | 14h - 19h | 13h - 17h | 0h - 0h | 0h - 0h | 11h-15h |
-| Wednesday | 9h - 15h  | 10h - 17h | 0h - 0h | 0h - 0h |10h-15h  |
-| Thursday  | 9h - 15h  | 13h - 17h | 0h - 0h | 0h - 0h | 10h-15h |
-| Friday    | 9h - 13h  | 10h - 17h | 0h - 0h | 0h - 0h | 10h-15h |
+| Monday    | 9h - 15h  | 10h - 17h | 8h - 12h | 0h - 0h | 11h-15h |
+| Tuesday   | 14h - 19h | 13h - 17h | 8h - 12h | 0h - 0h | 11h-15h |
+| Wednesday | 9h - 15h  | 10h - 17h | 8h - 12h | 0h - 0h |10h-15h  |
+| Thursday  | 9h - 15h  | 13h - 17h | 8h - 12h | 0h - 0h | 10h-15h |
+| Friday    | 9h - 13h  | 10h - 17h | 8h - 12h | 0h - 0h | 10h-15h |
 
 ### How many hours everyone has per day
 
 - Emely : _5h_;
 - Rayane Silva: 6h_;
-- Moamin Salamah: _xh_;
+- Moamin Salamah: _4h_ I might be adding extra hours at the nights depending on my availability ;
 - Hasan: _xh_;
 - Senait: _5h_;
 
