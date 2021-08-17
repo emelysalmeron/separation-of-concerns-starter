@@ -20,6 +20,9 @@
 - [ ] *label* tag named add item
 - [ ] *input* tag type="text" for the user to enter an item
 - [ ] *add* button
+- [ ] *form* to have the ToDo list
+- [ ] *form* to have the Completed list
+
 
 ### `type: css` (_label_)
 
@@ -31,6 +34,7 @@
   - [ ] button font-color grey #888
   - [ ] button hover font-color: green #333
   - [ ] outline: none
+- form-field with the same style
 
 ### `type: handlers` (_label_)
 
@@ -38,11 +42,11 @@
 
 ### `type: listeners` (_label_)
 
-- [ ] attach a click event to add button
+- [ ] attach a "click" event to add button
   
 ## `for: tasks to be done` (_label_)
 
-### `type: html` (_label_)
+### `type: html` (_label_) 
 
 - [ ] *label* tag named TO DO
 - [ ] unordered list
@@ -70,7 +74,7 @@
 
 - [ ] attach a click event to delete button
 - [ ] attach a click event to edit button
-- [ ] attach a click event to the checkbox
+- [ ] attach a "change" event to the checkbox
   
 ## `for: completed tasks` (_label_)
 
@@ -99,4 +103,4 @@
 
 ### `type: listeners` (_label_)
 
-- [ ] attach a click event to the checkbox
+- [ ] attach a "change" event to the checkbox
