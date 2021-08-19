@@ -28,7 +28,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 | Tuesday   | 14h - 19h | 13h - 17h | 8h - 12h | 12h - 17h | 11h-15h |
 | Wednesday | 9h - 15h  | 10h - 17h | 8h - 12h | 12h - 17h | 10h-15h |
 | Thursday  | 9h - 15h  | 13h - 17h | 8h - 12h | 12h - 17h | 10h-15h |
-| Friday    | 9h - 13h  | 10h - 17h | 8h - 12h | 12h - 17h | 10h-15h |
+| Friday    | 16h -21h  | 10h - 17h | 8h - 12h | 12h - 17h | 10h-15h |
 
 ### How many hours everyone has per day
 
