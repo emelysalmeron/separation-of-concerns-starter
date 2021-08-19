@@ -18,9 +18,11 @@
 - src
   - components
   - handlers
+    - [add-to-do.js](#clientsrchandlersadd-to-dojs)
   - init
     - [index.js](#clientsrcinitindexjs)
   - listeners
+    - [add-to-do-listener.js](#clientsrclistenersadd-to-do-listenerjs)
   - logic
 - styles
 - [data.js](#clientdatajs)
@@ -43,6 +45,21 @@
 
 ## /handlers
 
+<details><summary><a href="../../client/src/handlers/add-to-do.js" id="clientsrchandlersadd-to-dojs">../client/src/handlers/add-to-do.js</a></summary>
+
+<a name="addTodo"></a>
+
+## addTodo
+
+Entry point for users adding a task to the list.
+It is called each time the user clicks the "add" icon button.
+
+| Param | Type               | Description                                          |
+| ----- | ------------------ | ---------------------------------------------------- |
+| event | <code>Event</code> | The event triggered when the user clicks the button. |
+
+</details>
+
 ---
 
 ## /init
@@ -54,6 +71,10 @@
 ---
 
 ## /listeners
+
+<details><summary><a href="../../client/src/listeners/add-to-do-listener.js" id="clientsrclistenersadd-to-do-listenerjs">../client/src/listeners/add-to-do-listener.js</a></summary>
+
+</details>
 
 ---
 
