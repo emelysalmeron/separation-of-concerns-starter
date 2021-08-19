@@ -18,9 +18,11 @@
 - src
   - components
   - handlers
+    - [handler.js](#clientsrchandlershandlerjs)
   - init
     - [index.js](#clientsrcinitindexjs)
   - listeners
+    - [listener.js](#clientsrclistenerslistenerjs)
   - logic
 - styles
 - [data.js](#clientdatajs)
@@ -43,6 +45,10 @@
 
 ## /handlers
 
+<details><summary><a href="../../client/src/handlers/handler.js" id="clientsrchandlershandlerjs">../client/src/handlers/handler.js</a></summary>
+
+</details>
+
 ---
 
 ## /init
@@ -54,6 +60,10 @@
 ---
 
 ## /listeners
+
+<details><summary><a href="../../client/src/listeners/listener.js" id="clientsrclistenerslistenerjs">../client/src/listeners/listener.js</a></summary>
+
+</details>
 
 ---
 
