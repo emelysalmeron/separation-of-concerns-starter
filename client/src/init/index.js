@@ -1,1 +1,1 @@
-import '../listeners/listener.js'
+import '../listeners/listener.js';

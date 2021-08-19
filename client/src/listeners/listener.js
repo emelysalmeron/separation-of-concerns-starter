@@ -1,5 +1,5 @@
-import {todoButton} from '../components/selectors.js'
-import {addTodo} from "../handlers/handler.js"
-//event listeners
-todoButton.addEventListener("click", addTodo)
+import { addTodo } from '../handlers/handler.js';
 
+const todoButton = document.querySelector('.todo-button');
+// event listeners
+todoButton.addEventListener('click', addTodo);
