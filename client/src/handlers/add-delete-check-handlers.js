@@ -47,21 +47,25 @@ export const addTodo = (event) => {
   return todoDiv; // added this line to avoid the lint error as the function expects to have a return statement
 };
 
-//DELETE & CHECK
-export function deleteCheck(e) {
+// DELETE & CHECK
+/**
+ * @param e
+ */
+
+export const deleteCheck = (e) => {
   const item = e.target;
-  //DELETE ITEM
+  // DELETE ITEM
   if (item.classList[0] === 'delete_btn') {
     const todo = item.parentElement;
-    //ANIMATION TRANSITION
+    // ANIMATION TRANSITION
     todo.classList.add('fall');
-    todo.addEventListener('transitionend', function () {
+    todo.addEventListener('transitionend', () => {
       todo.remove();
     });
   }
-  //COMPLETE ITEM
+  // COMPLETE ITEM
   if (item.classList[0] === 'complete_btn') {
     const todo = item.parentElement;
     todo.classList.toggle('completedItem');
   }
-}
+};
