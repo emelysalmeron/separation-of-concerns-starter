@@ -18,11 +18,11 @@
 - src
   - components
   - handlers
-    - [add-to-do.js](#clientsrchandlersadd-to-dojs)
+    - [add-delete-check-handlers.js](#clientsrchandlersadd-delete-check-handlersjs)
   - init
     - [index.js](#clientsrcinitindexjs)
   - listeners
-    - [add-to-do-listener.js](#clientsrclistenersadd-to-do-listenerjs)
+    - [add-delete-check-listener.js](#clientsrclistenersadd-delete-check-listenerjs)
   - logic
 - styles
 - [data.js](#clientdatajs)
@@ -45,7 +45,7 @@
 
 ## /handlers
 
-<details><summary><a href="../../client/src/handlers/add-to-do.js" id="clientsrchandlersadd-to-dojs">../client/src/handlers/add-to-do.js</a></summary>
+<details><summary><a href="../../client/src/handlers/add-delete-check-handlers.js" id="clientsrchandlersadd-delete-check-handlersjs">../client/src/handlers/add-delete-check-handlers.js</a></summary>
 
 <a name="addTodo"></a>
 
@@ -72,7 +72,7 @@ It is called each time the user clicks the "add" icon button.
 
 ## /listeners
 
-<details><summary><a href="../../client/src/listeners/add-to-do-listener.js" id="clientsrclistenersadd-to-do-listenerjs">../client/src/listeners/add-to-do-listener.js</a></summary>
+<details><summary><a href="../../client/src/listeners/add-delete-check-listener.js" id="clientsrclistenersadd-delete-check-listenerjs">../client/src/listeners/add-delete-check-listener.js</a></summary>
 
 </details>
 
