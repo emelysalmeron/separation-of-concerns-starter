@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .todo_list {
   min-width: 40%;
   list-style: none;
@@ -16,7 +17,7 @@
 .todo {
   margin: 5px auto;
   background: white;
-  color: #000000;
+  color: #000;
   display: flex;
   font-size: 1.2rem;
   padding: 0.3rem;
@@ -44,6 +45,7 @@
 .complete_btn {
   background: rgb(67, 179, 67);
 }
+
 .complete_btn:active {
   background: green;
 }
@@ -63,6 +65,7 @@
   opacity: 0.5;
   transform: scale(0.96);
 }
+
 /* DELETING THE TASKS */
 .fall {
   transform: translateY(4rem) scale(0.4) rotateZ(20deg);
