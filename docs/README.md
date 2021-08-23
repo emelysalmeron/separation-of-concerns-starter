@@ -47,6 +47,17 @@
 
 <details><summary><a href="../../client/src/handlers/add-delete-check-handlers.js" id="clientsrchandlersadd-delete-check-handlersjs">../client/src/handlers/add-delete-check-handlers.js</a></summary>
 
+## Constants
+
+<dl>
+<dt><a href="#addTodo">addTodo</a></dt>
+<dd><p>Entry point for users adding a task to the list.
+It is called each time the user clicks the &quot;add&quot; icon button.</p>
+</dd>
+<dt><a href="#deleteCheck">deleteCheck</a></dt>
+<dd></dd>
+</dl>
+
 <a name="addTodo"></a>
 
 ## addTodo
@@ -57,6 +68,14 @@ It is called each time the user clicks the "add" icon button.
 | Param | Type               | Description                                          |
 | ----- | ------------------ | ---------------------------------------------------- |
 | event | <code>Event</code> | The event triggered when the user clicks the button. |
+
+<a name="deleteCheck"></a>
+
+## deleteCheck
+
+| Param |
+| ----- |
+| e     |
 
 </details>
 
