@@ -1,14 +1,9 @@
-# Separation of Concerns Starter
-
-<!-- describe your project -->
-
 # Todo List
 
 > A todo list allows the user to add, edit, check and delete a list of items   .
 
 ## Table of contents
 
-- [Separation of Concerns Starter](#separation-of-concerns-starter)
 - [Todo List](#todo-list)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
@@ -34,7 +29,6 @@ A todo list , the objective is build the app using Javascript to create DOM elem
 - HTML
 - CSS
 - VSC code
-
 
 ## Code Examples
 
@@ -81,24 +75,23 @@ List of for future development features
 - the user can add time and date to the listed items
 - the user can save the list
 
-
-
 ## Status
 
 Project is: _in progress_
 
 ## Inspiration
+
 we got inspired by [@SuryaShakti](https://gist.github.com/SuryaShakti)
+
 ## Contact
 
 By [HYF - Group 5]
 
-- [Emely Salmeron ](https://github.com/emelysalmeron)
+- [Emely Salmeron](https://github.com/emelysalmeron)
 - [Rayane Silva](https://github.com/rayanejsilva)
 - [Senait](https://github.com/Senait-coding)
 - [Hasan Dogan](https://github.com/hserdogan94)
 - [Moamin AbuEwaida](https://github.com/Moamin-AbuEwaida)
-
 
 <!--
 ## Repo Setup
