@@ -18,11 +18,15 @@
 - src
   - components
   - handlers
-    - [add-delete-check-handlers.js](#clientsrchandlersadd-delete-check-handlersjs)
+    - [add-to-do.js](#clientsrchandlersadd-to-dojs)
+    - [check-task.js](#clientsrchandlerscheck-taskjs)
+    - [delete-task.js](#clientsrchandlersdelete-taskjs)
   - init
     - [index.js](#clientsrcinitindexjs)
   - listeners
-    - [add-delete-check-listener.js](#clientsrclistenersadd-delete-check-listenerjs)
+    - [add-to-do.js](#clientsrclistenersadd-to-dojs)
+    - [check-task.js](#clientsrclistenerscheck-taskjs)
+    - [delete-task.js](#clientsrclistenersdelete-taskjs)
   - logic
 - styles
 - [data.js](#clientdatajs)
@@ -45,7 +49,7 @@
 
 ## /handlers
 
-<details><summary><a href="../../client/src/handlers/add-delete-check-handlers.js" id="clientsrchandlersadd-delete-check-handlersjs">../client/src/handlers/add-delete-check-handlers.js</a></summary>
+<details><summary><a href="../../client/src/handlers/add-to-do.js" id="clientsrchandlersadd-to-dojs">../client/src/handlers/add-to-do.js</a></summary>
 
 <a name="addTodo"></a>
 
@@ -53,6 +57,36 @@
 
 Entry point for users adding a task to the list.
 It is called each time the user clicks the "add" icon button.
+
+| Param | Type               | Description                                          |
+| ----- | ------------------ | ---------------------------------------------------- |
+| event | <code>Event</code> | The event triggered when the user clicks the button. |
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/check-task.js" id="clientsrchandlerscheck-taskjs">../client/src/handlers/check-task.js</a></summary>
+
+<a name="checkTask"></a>
+
+## checkTask
+
+Entry point for users marking tasks as complete.
+It is called each time the user clicks the "check" icon button.
+
+| Param | Type               | Description                                          |
+| ----- | ------------------ | ---------------------------------------------------- |
+| event | <code>Event</code> | The event triggered when the user clicks the button. |
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/delete-task.js" id="clientsrchandlersdelete-taskjs">../client/src/handlers/delete-task.js</a></summary>
+
+<a name="deleteCheck"></a>
+
+## deleteCheck
+
+Entry point for users deleting tasks as complete.
+It is called each time the user clicks "delete" icon button.
 
 | Param | Type               | Description                                          |
 | ----- | ------------------ | ---------------------------------------------------- |
@@ -72,7 +106,15 @@ It is called each time the user clicks the "add" icon button.
 
 ## /listeners
 
-<details><summary><a href="../../client/src/listeners/add-delete-check-listener.js" id="clientsrclistenersadd-delete-check-listenerjs">../client/src/listeners/add-delete-check-listener.js</a></summary>
+<details><summary><a href="../../client/src/listeners/add-to-do.js" id="clientsrclistenersadd-to-dojs">../client/src/listeners/add-to-do.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/listeners/check-task.js" id="clientsrclistenerscheck-taskjs">../client/src/listeners/check-task.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/listeners/delete-task.js" id="clientsrclistenersdelete-taskjs">../client/src/listeners/delete-task.js</a></summary>
 
 </details>
 
