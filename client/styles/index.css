@@ -1,1 +1,48 @@
 @import url('./other-file.css');
+body {
+    background-image: url(/client/public/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: #01351b;
+    min-height: 100vh;
+}
+
+header,
+form {
+    display: flex;
+    min-height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.4rem;
+    border: none;
+    font-size: 1.6rem;
+    background: white;
+}
+
+form button {
+    color: #058042;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #105806;
+    color: white;
+}
+
+.todo-input {
+    border: revert;
+    border-block-color: revert;
+}
+
+.todo-title {
+    background-color: antiquewhite;
+    opacity: 0.74;
+}
