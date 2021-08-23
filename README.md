@@ -2,8 +2,105 @@
 
 <!-- describe your project -->
 
----
+# Todo List
 
+> A todo list allows the user to add, edit, check and delete a list of items   .
+
+## Table of contents
+
+- [Separation of Concerns Starter](#separation-of-concerns-starter)
+- [Todo List](#todo-list)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Code Examples](#code-examples)
+  - [Features](#features)
+  - [Status](#status)
+  - [Inspiration](#inspiration)
+  - [Contact](#contact)
+
+## General info
+
+A todo list , the objective is build the app using Javascript to create DOM elements during the user interaction with the app interface .
+
+## Screenshots
+
+![Example screenshot](client/public/ToDo-list-screen.png)
+
+## Technologies
+
+- JavaScript
+- HTML
+- CSS
+- VSC code
+
+
+## Code Examples
+
+```js
+const todoInput = document.querySelector('.todo-input');
+const todoList = document.querySelector('.todo_list');
+
+
+export const addTodo = (event) => {
+  event.preventDefault();
+  const todoDiv = document.createElement('div');
+  todoDiv.classList.add('todo');
+  const newTodo = document.createElement('li');
+  newTodo.innerText = todoInput.value;
+  newTodo.classList.add('todo_item');
+  todoDiv.appendChild(newTodo);
+  if (todoInput.value === '') {
+    return null;
+  }
+
+  const completedButton = document.createElement('button');
+  completedButton.innerHTML = '<i class="fas fa-check"></i>';
+  completedButton.classList.add('complete_btn');
+  todoDiv.appendChild(completedButton);
+
+  const deleteButton = document.createElement('button');
+  deleteButton.innerHTML = '<i class="fas fa-trash"></i>';
+  deleteButton.classList.add('delete_btn');
+  todoDiv.appendChild(deleteButton);
+
+  
+  todoList.appendChild(todoDiv);
+  
+  todoInput.value = '';
+  return todoDiv; 
+};
+```
+
+## Features
+
+List of for future development features
+
+- the user can edit the listed items
+- the user can add time and date to the listed items
+- the user can save the list
+
+
+
+## Status
+
+Project is: _in progress_
+
+## Inspiration
+we got inspired by [@SuryaShakti](https://gist.github.com/SuryaShakti)
+## Contact
+
+By [HYF - Group 5]
+
+- [Emely Salmeron ](https://github.com/emelysalmeron)
+- [Rayane Silva](https://github.com/rayanejsilva)
+- [Senait](https://github.com/Senait-coding)
+- [Hasan Dogan](https://github.com/hserdogan94)
+- [Moamin AbuEwaida](https://github.com/Moamin-AbuEwaida)
+
+
+<!--
 ## Repo Setup
 
 - Give each member _write_ access to the repo (if it's a group project)
@@ -86,3 +183,4 @@ You can run the same checks locally to make sure you have no errors before pushi
   - there is no extra CI check for formatting, but the linter will check some formatting. The rest is up to your code reviewer
 - **Documenting**
   - `npm run document`: render the documentation before pushing to make sure there are no errors.
+-->
