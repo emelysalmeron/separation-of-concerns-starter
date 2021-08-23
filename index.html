@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/public/todo list.png" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./client/public/todo list.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDo list</title>
 
@@ -18,14 +22,14 @@
       <h1>Todo List</h1>
     </header>
     <form>
-      <input type="text" class="todo-input">
-      <button class="todo-button" type="submit">
+      <input type="text" class="todo-input"  maxlength="4"/>
+      <button class="todo_button" type="submit">
         <i class="fas fa-plus"></i>
       </button>
     </form>
     <div class="todo_container">
       <ul class="todo_list"></ul>
-  </div>
+    </div>
     <script type="module" src="./client/src/init/index.js"></script>
   </body>
 </html>
