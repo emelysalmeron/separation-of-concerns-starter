@@ -21,7 +21,6 @@ export const addTodo = (event) => {
   if (todoInput.value === '') {
     return null;
   }
-
   const completedButton = document.createElement('button');
   // add the icon to the button
   completedButton.innerHTML = '<i class="fas fa-check"></i>';

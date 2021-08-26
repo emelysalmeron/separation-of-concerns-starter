@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <link
       rel="icon"
@@ -13,29 +12,27 @@
 
     <link href="./client/styles/index.css" rel="stylesheet" />
     <!--importing font awesome icons -->
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-search-pseudo-elements></script>
-</head>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-search-pseudo-elements
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="todo-title">
-            <h1>Todo List</h1>
-        </div>
+      <div class="todo-title">
+        <h1>Todo List</h1>
+      </div>
     </header>
     <form>
-
-      <input type="text" class="todo-input" />
+      <input type="text" class="todo-input" maxlength="100" />
       <button class="todo_button" type="submit">
-
         <i class="fas fa-plus"></i>
       </button>
     </form>
     <div class="todo_container">
-
       <ul class="todo_list"></ul>
-
     </div>
     <script type="module" src="./client/src/init/index.js"></script>
-</body>
-
+  </body>
 </html>

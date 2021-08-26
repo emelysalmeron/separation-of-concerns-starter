@@ -81,11 +81,11 @@ It is called each time the user clicks the "check" icon button.
 
 <details><summary><a href="../../client/src/handlers/delete-task.js" id="clientsrchandlersdelete-taskjs">../client/src/handlers/delete-task.js</a></summary>
 
-<a name="deleteCheck"></a>
+<a name="deleteTask"></a>
 
-## deleteCheck
+## deleteTask
 
-Entry point for users deleting tasks as complete.
+Entry point for users deleting tasks.
 It is called each time the user clicks "delete" icon button.
 
 | Param | Type               | Description                                          |
