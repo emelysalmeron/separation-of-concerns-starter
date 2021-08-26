@@ -33,8 +33,10 @@ export const addTodo = (event) => {
   editButton.classList.add('edit_btn');
   todoDiv.appendChild(editButton);
   editButton.addEventListener('click', () => {
+    // eslint-disable-next-line no-alert
     const edittingTask = prompt('Please edit your text');
     if (edittingTask === '' || edittingTask === null) {
+      // eslint-disable-next-line no-alert
       alert("you didn't change anything");
     } else {
       newTodo.innerText = edittingTask;
