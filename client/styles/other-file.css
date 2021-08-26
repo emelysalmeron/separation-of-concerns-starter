@@ -32,7 +32,8 @@
 
 /* STYLING THE BUTTONS ON THE TASKS  */
 .complete_btn,
-.delete_btn {
+.delete_btn,
+.edit_btn {
   padding: 0.5rem;
   background: #ff3700;
   color: white;
@@ -53,7 +54,10 @@
 .delete_btn:active {
   background: #b65337;
 }
-
+.edit_btn {
+  background: blue;
+  margin-right: 2.2px;
+}
 .fa-trash,
 .fa-check {
   pointer-events: none;
