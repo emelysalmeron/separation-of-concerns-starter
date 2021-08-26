@@ -1,3 +1,5 @@
+// import { doc } from "prettier";
+
 const todoInput = document.querySelector('.todo-input');
 const todoList = document.querySelector('.todo_list');
 
@@ -21,6 +23,25 @@ export const addTodo = (event) => {
   if (todoInput.value === '') {
     return null;
   }
+  if (todoInput.value.length >= 99) {
+    // eslint-disable-next-line no-alert
+    return alert('your text is longer than 99 characters');
+  }
+  // edit button function needs to be separated
+  const editButton = document.createElement('button');
+  editButton.innerHTML = '<i class="fas fa-pen"></i>';
+  editButton.classList.add('edit_btn');
+  todoDiv.appendChild(editButton);
+  editButton.addEventListener('click', () => {
+    // eslint-disable-next-line no-alert
+    const edittingTask = prompt('Please edit your text');
+    if (edittingTask === '' || edittingTask === null) {
+      // eslint-disable-next-line no-alert
+      alert("you didn't change anything");
+    } else {
+      newTodo.innerText = edittingTask;
+    }
+  });
 
   const completedButton = document.createElement('button');
   // add the icon to the button
