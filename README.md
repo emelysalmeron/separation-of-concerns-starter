@@ -17,7 +17,7 @@
 
 ## General info
 
-A todo list , the objective is build the app using Javascript to create DOM elements during the user interaction with the app interface .
+This group project is part of HackYourFuture Belgium module Separation of concerns. Our objective is to build an app using Javascript to create DOM elements during the user interaction with the app interface ..
 
 ## Screenshots
 
@@ -28,7 +28,7 @@ A todo list , the objective is build the app using Javascript to create DOM elem
 - JavaScript
 - HTML
 - CSS
-- VSC code
+- VSCode
 
 ## Code Examples
 
