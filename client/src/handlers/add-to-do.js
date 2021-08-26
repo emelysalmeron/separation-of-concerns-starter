@@ -21,11 +21,6 @@ export const addTodo = (event) => {
   if (todoInput.value === '') {
     return null;
   }
-  if (todoInput.value.length >= 99) {
-    // eslint-disable-next-line no-alert
-    return alert('your text is longer than 99 characters');
-  }
-
   const completedButton = document.createElement('button');
   // add the icon to the button
   completedButton.innerHTML = '<i class="fas fa-check"></i>';
