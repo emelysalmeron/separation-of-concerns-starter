@@ -54,10 +54,12 @@
 .delete_btn:active {
   background: #b65337;
 }
+
 .edit_btn {
   background: blue;
   margin-right: 2.2px;
 }
+
 .fa-trash,
 .fa-check {
   pointer-events: none;
