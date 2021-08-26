@@ -22,50 +22,21 @@ export const addTodo = (event) => {
     return null;
   }
 
-  // create a check mark button
   const completedButton = document.createElement('button');
   // add the icon to the button
   completedButton.innerHTML = '<i class="fas fa-check"></i>';
-  // add class name to the check mark button
   completedButton.classList.add('complete_btn');
-  // append the button to the todo div
   todoDiv.appendChild(completedButton);
 
-  // create a delete button
   const deleteButton = document.createElement('button');
   // add the icon to the button
   deleteButton.innerHTML = '<i class="fas fa-trash"></i>';
-  // add class name to the delete button
   deleteButton.classList.add('delete_btn');
-  // append the button to the todo div
   todoDiv.appendChild(deleteButton);
 
-  // Append to Actual LIST
+  // Append to actual list
   todoList.appendChild(todoDiv);
-  // Clear todo input VALUE
+  // Clear todo input value
   todoInput.value = '';
   return todoDiv; // added this line to avoid the lint error as the function expects to have a return statement
-};
-
-// DELETE & CHECK
-/**
- * @param e
- */
-
-export const deleteCheck = (e) => {
-  const item = e.target;
-  // DELETE ITEM
-  if (item.classList[0] === 'delete_btn') {
-    const todo = item.parentElement;
-    // ANIMATION TRANSITION
-    todo.classList.add('fall');
-    todo.addEventListener('transitionend', () => {
-      todo.remove();
-    });
-  }
-  // COMPLETE ITEM
-  if (item.classList[0] === 'complete_btn') {
-    const todo = item.parentElement;
-    todo.classList.toggle('completedItem');
-  }
 };
